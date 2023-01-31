@@ -4,10 +4,9 @@
     "module": "ES2020",
 
     "paths": {
-      "$lib": ["./src/lib"],
-      "$lib/*": ["./src/lib/*"]
+      "$another": ["./another.ts"],
     }
   },
 
-  "include": ["src/**/*.ts"]
+  "include": ["*.ts"]
 }
